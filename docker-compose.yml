@@ -1,0 +1,8 @@
+version: '3'
+services:
+  huginn:
+    image: ghcr.io/huginn/huginn
+    ports:
+      - "3007:3000"
+    tty: true
+    restart: always
